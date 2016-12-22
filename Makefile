@@ -25,7 +25,7 @@ class: Dialogc.java DialogcMenuBar.java ConfirmWindow.java MainWindow.java Compi
 	javac Dialogc.java DialogcMenuBar.java ConfirmWindow.java MainWindow.java CompileListener.java CompileGUICode.java
 
 yadcMake: 
-	$(MAKE) -C ./Yadc
+	$(MAKE) -C ./yadc
 
 Dialogc: class libJNIpm.so yadcMake
 	export LD_LIBRARY_PATH=. && java Dialogc
@@ -37,4 +37,4 @@ Test.java: CompiledGUICode.class
 	java CompiledGUICode
 
 clean:
-	rm -rf *.class *.o *.so *.log Example Guification Reserved Reserved2 Reserved3 && $(MAKE) -C ./Yadc clean
+	rm -rf *.class *.o *.so *.log Example Guification Reserved Reserved2 Reserved3 && $(MAKE) -C ./yadc clean
