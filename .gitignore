@@ -1,4 +1,6 @@
 a4test/
+ActionListeners/
+!ActionListeners/ExampleListener.java
 ConfigFiles/
 EncodedFiles/
 Example/
