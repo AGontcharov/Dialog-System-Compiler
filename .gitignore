@@ -1,6 +1,6 @@
 a4test/
-Config_Files/
-Encoded_Files/
+ConfigFiles/
+EncodedFiles/
 Script/test
 output/
 QueryListener.java
