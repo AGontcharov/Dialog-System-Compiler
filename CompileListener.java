@@ -238,7 +238,7 @@ public class CompileListener implements ActionListener {
                 + DialogcMenuBar.absoluteFilePath + " " 
                 + MainWindow.removeExtension(MainWindow.fileName) + " " + directory.getPath();
                 System.out.println("\nRunning: " + command + "\n");
-                p = Runtime.getRuntime().exec(command); 
+                p = Runtime.getRuntime().exec(command);
                 exitValue = p.waitFor();
             }
             catch (Exception ex) {

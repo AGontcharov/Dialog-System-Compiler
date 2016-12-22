@@ -79,7 +79,7 @@ public class DialogcMenuBar extends JMenuBar {
         
         //Get the absolute path to the current diretory and set it for the JFIleChooser
         currentWorkingDirectory = System.getProperty("user.dir");
-        yadcPath = currentWorkingDirectory + "/yadc";
+        yadcPath = currentWorkingDirectory + "/yadc/yadc";
         readMePath = currentWorkingDirectory + "/README.txt";
         chooser = new JFileChooser(currentWorkingDirectory);
         chooser.addChoosableFileFilter(new FileNameExtensionFilter("Config file", "config"));
