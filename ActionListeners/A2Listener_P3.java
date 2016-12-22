@@ -15,8 +15,8 @@ public class A2Listener_P3 implements ActionListener
 		try
 		{
 			d.setDCF_Name("Doug");
-      d.setDCL_Name("L_D");
-      
+			d.setDCL_Name("L_D");
+
 			d.appendToStatusArea("button pressed.");
 		}
 		catch(Exception tr)

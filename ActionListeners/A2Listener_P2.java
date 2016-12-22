@@ -15,7 +15,7 @@ public class A2Listener_P2 implements ActionListener
 		try
 		{
 			d.setDCasdf ("Doug");
-                        d.setDClag ("a2b2");
+            d.setDClag ("a2b2");
       
 			d.appendToStatusArea("button pressed.");
 		}
