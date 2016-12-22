@@ -2,5 +2,7 @@ a4test/
 ConfigFiles/
 EncodedFiles/
 Script/test
+yadc/test.config
+yadc/QueryListener.java
 output/
 ToDo
