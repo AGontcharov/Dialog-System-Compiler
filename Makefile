@@ -37,4 +37,4 @@ Test.java: CompiledGUICode.class
 	java CompiledGUICode
 
 clean:
-	rm -rf *.class *.o *.so *.log Example Guification Reserved Reserved2 Reserved3 && $(MAKE) -C ./yadc clean
+	rm -rf *.class *.o *.so *.log && $(MAKE) -C ./yadc clean
