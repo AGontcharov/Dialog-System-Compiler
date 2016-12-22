@@ -1,4 +1,5 @@
 #Macros for <jni.h> path
+#Path 1 and 2 are for the Sunrays, 3 and 4 are for my system.
 JPATH1 = /usr/lib/jvm/java-1.6.0-openjdk/include
 JPATH2 = /usr/lib/jvm/java-1.6.0-openjdk/include/linux
 JPATH3 = /usr/local/java/jdk1.8.0_05/include
