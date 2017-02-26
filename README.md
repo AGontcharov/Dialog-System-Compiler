@@ -1,4 +1,4 @@
-> A simplified language compiler
+> A simplified JAVA GUI language compiler
 
 ![](dialogcOverview.png)
 
