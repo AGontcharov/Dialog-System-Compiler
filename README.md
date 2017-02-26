@@ -48,7 +48,7 @@ cd Dialog-System-Compiler
 
 From here you need to open the Makefile in a text editor
 Replace the macros JPATH3 and JPATH4 with the location of <jni.h> on your system
-save and exit the Makefile
+save the Makefile
 ```
 
 Linux (Script):
