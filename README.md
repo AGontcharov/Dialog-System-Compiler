@@ -46,7 +46,7 @@ Linux (git):
 
 ```sh
 git clone https://github.com/AGontcharov/Dialog-System-Compiler.git
-cd Dialog-System-Compiler/
+cd Dialog-System-Compiler
 
 From here you need to open the Makefile in a text editor
 Replace the macros JPATH3 and JPATH4 with the location of <jni.h> on your system
@@ -57,9 +57,9 @@ Linux (Script):
 
 ```sh
 git clone https://github.com/AGontcharov/Dialog-System-Compiler.git
-cd Dialog-System-Compiler/
-rm -rf !(Script/)
-cd Script/
+cd Dialog-System-Compiler
+rm -rf !(Script)
+cd Script
 chmod u+x install_dialogc.sh
 ./install_dialogc.sh
 
@@ -88,8 +88,8 @@ make
 Linux (yadc):
 
 ```sh
-cd Dialog-system-Compiler/
-cd yadc/
+cd Dialog-system-Compiler
+cd yadc
 ./yadc [.config file path] [project name] [output directory (empty if cwd)]
 ```
 
