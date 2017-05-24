@@ -42,7 +42,7 @@ _An example .config file is provided in the config_files folder along with an ac
 
 ## Installation
 
-Linux (git):
+Linux (Git):
 
 ```sh
 git clone https://github.com/AGontcharov/Dialog-System-Compiler.git
@@ -50,7 +50,7 @@ cd Dialog-System-Compiler
 
 From here you need to open the Makefile in a text editor
 Replace the macros JPATH3 and JPATH4 with the location of <jni.h> on your system
-save the Makefile
+Save the Makefile
 ```
 
 Linux (Script):
