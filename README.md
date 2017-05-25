@@ -27,12 +27,12 @@ If fields or buttons are given values then their type and action listeners must 
 ```
 #!#
 
-# Types of fields
+#Types of fields
 Name = "String";
 ID = "Integer";
 ID = "Integer";
 
-# Action Listerner
+#Action Listerner
 Add = "AddListener";
 Update = "UpdateListener";
 Delete = "DeleteListener";
@@ -48,9 +48,9 @@ Linux (Git):
 git clone https://github.com/AGontcharov/Dialog-System-Compiler.git
 cd Dialog-System-Compiler
 
-From here you need to open the Makefile in a text editor
-Replace the macros JPATH3 and JPATH4 with the location of <jni.h> on your system
-Save the Makefile
+#From here you need to open the Makefile in a text editor
+#Replace the macros JPATH3 and JPATH4 with the location of <jni.h> on your system
+#Save the Makefile
 ```
 
 Linux (Script):
@@ -63,7 +63,7 @@ cd Script
 chmod u+x install_dialogc.sh
 ./install_dialogc.sh
 
-Follow the instructions on the screen
+#Follow the instructions on the screen
 ```
 
 OS X:
